@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/Input/index.tsx"],
+  "sourcesContent": ["import { setupReactNative, styled } from '@tamagui/core'\nimport { TextInput } from 'react-native'\nsetupReactNative({ TextInput })\n\nconst MyTextInput = styled(TextInput, {\n  borderBottomWidth: 1,\n  borderBottomColor: '#DADDE7',\n  placeholderTextColor: '#58595B',\n  paddingBottom: 20,\n})\n\nconst Input = ({ placeholder }) => {\n  return <MyTextInput placeholder={placeholder} />\n}\n\nexport default Input\n"],
+  "mappings": "AAAA,SAAS,kBAAkB,cAAc;AACzC,SAAS,iBAAiB;AAC1B,iBAAiB,EAAE,UAAU,CAAC;AAE9B,MAAM,cAAc,OAAO,WAAW;AAAA,EACpC,mBAAmB;AAAA,EACnB,mBAAmB;AAAA,EACnB,sBAAsB;AAAA,EACtB,eAAe;AACjB,CAAC;AAED,MAAM,QAAQ,CAAC,EAAE,YAAY,MAAM;AACjC,SAAO,CAAC,YAAY,aAAa,aAAa;AAChD;AAEA,IAAO,gBAAQ;",
+  "names": []
+}

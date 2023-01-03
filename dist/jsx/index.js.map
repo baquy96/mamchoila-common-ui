@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/index.tsx"],
+  "sourcesContent": ["export * from 'tamagui'\nexport * from './MyComponent'\nexport * from './PhoneInput'\nexport { config } from './tamagui.config'\n"],
+  "mappings": "AAAA,cAAc;AACd,cAAc;AACd,cAAc;AACd,SAAS,cAAc;",
+  "names": []
+}

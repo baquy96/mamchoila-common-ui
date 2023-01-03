@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/PhoneInput/index.tsx"],
+  "sourcesContent": ["import Input from '../Input'\n\nconst PhoneInput = () => {\n  return <Input placeholder=\"Phone Number\" />\n}\n\nexport default PhoneInput\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBAAkB;AAElB,MAAM,aAAa,MAAM;AACvB,SAAO,CAAC,aAAAA,QAAM,YAAY,eAAe;AAC3C;AAEA,IAAO,qBAAQ;",
+  "names": ["Input"]
+}
